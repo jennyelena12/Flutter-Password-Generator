@@ -1,16 +1,38 @@
-# flutter_app
+# Password Generator
 
-A new Flutter project.
+## Overview
+
+Password Generator is a Flutter application that helps users create secure random passwords. Users can customize the generated password by selecting character types such as uppercase letters, lowercase letters, numbers, and symbols, as well as specifying the desired password length.
+
+The application also evaluates password strength and provides feedback to help users create stronger passwords.
+
+## Features
+
+* Generate random passwords
+* Customize password composition
+
+  * Uppercase letters
+  * Lowercase letters
+  * Numbers
+  * Symbols
+* Adjustable password length
+* Password strength indicator
+
+## Tech Stack
+
+* Flutter
+* Dart
+* random_password_generator package
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+git clone https://github.com/jennyelena12/Project-Flutter.git
+cd Project-Flutter
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Contributors
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Elena Angkawi
